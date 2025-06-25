@@ -481,3 +481,14 @@ label {
     background-color: #b9ff66;
     color: #00171c;
 }
+
+/* footer */
+
+.foot{
+  height: 80px;
+  background-color: #191a23;
+  color: aliceblue;
+display: flex;
+justify-content: center;
+align-items: center;
+}
