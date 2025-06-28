@@ -403,18 +403,17 @@ details:hover .faq-title {
     font-family: popin;
     font-size: 0.8em;
     height: 90%;
-    /* width: 58%; */
     display: flex;
-    flex-direction: column;
     justify-content: start;
     align-content: flex-start;
-    row-gap: 10;
+    /* row-gap: 10; */
     color: #00171c;
     width: 50%;
 }
 
 .contactus{
-  margin: 25px 100px !important;
+  margin: 25px 0 25px 100px !important;
+  width: 100%;
 }
 
 .right-one {
@@ -424,23 +423,15 @@ details:hover .faq-title {
 
 .box {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 90%;
     padding: 3px;
-    margin: 5px 0 5px 0;
+    margin: 0 0 5px 0;
 }
 
-.right-two {
-    margin-top: 10px;
-}
-
-.project {
-    border: 2px solid #00171c5b;
-    color: black;
-    width: 42%;
-    padding: 8px 5px;
-    border-radius: 5px;
-    text-align: start;
+.right-two p{
+  margin-left: 5px;
+  margin-top: 5px;
 }
 
 input {
@@ -454,18 +445,17 @@ label {
 .email , textarea{
     border: 2px solid #00171c5b;
     color: black;
-    width: 50%;
+    width: 95%;
     padding: 8px 5px;
     border-radius: 5px;
     text-align: start;
 }
 
-.email input {
+.email input , textarea {
     background-color: transparent;
     border: none;
     outline: none;
 }
-
 .create {
     padding: 8px 25px;
     border-radius: 8px;

@@ -1,7 +1,5 @@
 /* Header Start */
-header{
-    padding: 0;
-}
+
 header img{
     width: 150px;
     height: 30px;
@@ -118,63 +116,8 @@ header img{
 }
 /* Services Section Start */
 
-/* Proposal Section Start */
-@media only screen and (max-width: 810px){
-    .proposal-sec .btn{
-        padding: 8px;
-        font-size: 16px !important;
-    }
-}
 
-@media only screen and (max-width: 752px){
-    .proposal-sec .hero-area{
-        flex-direction: column;
-    }
-    .proposal-sec .hero-text h1{
-        font-size: 2.5em;
-    }
-
-    .proposal-sec .hero-area{
-        gap: 50px !important;
-    }
-}
-
-@media only screen and (max-width: 440px){
-    .proposal-sec .btn{
-        width: 100%;
-        padding: 10px;
-        font-size: 16px !important;
-    }
-
-    .proposal-sec .hero-img img{
-        width: 200px;
-        height: auto;
-    }
-}
-
-
-/* Proposal Section End */
-
-/* Case Studies Section Start */
-@media only screen and (max-width: 800px){
-    .card-case{
-        flex-direction: column;
-        padding: 20px 40px;
-    }
-
-    .card-case .cards{
-        border-right: none;
-        border-bottom: 2px solid white;
-        padding: 35px 0;
-    }
-
-    .card-case .cad-3{
-        border-bottom: none;
-    }
-}
-/* Case Studies Section End */
-
-/* Working Process / FAQ Section Start */
+/* Working Process  */
 @media (max-width: 430px) {
     .faq-header {
         flex-wrap: wrap; 
@@ -196,80 +139,5 @@ header img{
         order: 2; 
     }
 }
-/* Working Process / FAQ Section End */
+/* Working Process */
 
-/* Team Section Start */
-@media only screen and (max-width: 360px){
-    .team-sec .card-box{
-        height: auto;
-    }
-
-    .card-box .card-top{
-        flex-wrap: wrap;
-    }
-
-    .card-top .text{
-        order: 3;
-        margin-top: 10px;
-    }
-
-    .card-top .icon-team{
-        order: 2;
-        margin-top: 50px;
-    }
-
-    .card-top img{
-        order: 1;
-    }
-}
-/* Team Section End */
-
-/* Testimonials Section Start  */
-@media (max-width: 800px) {
-  .testimonial-bubble{
-    max-width: 500px;
-  }
-}
-
-@media (max-width: 690px) {
-  .testimonial-bubble{
-    max-width: 400px;
-  }
-
-  .carousel-indicators{
-    top: 420px;
-  }
-
-   .slider-sec .carousel{
-        padding-bottom: 90px ;
-    }
-}
-
-@media (max-width: 580px) {
-  .testimonial-bubble{
-    max-width: 300px;
-  }
-
-  .carousel-indicators{
-    top: 470px;
-  }
-
-   .slider-sec .carousel{
-        padding-bottom: 80px ;
-    }
-}
-
-@media (max-width: 430px) {
-  .testimonial-bubble{
-    max-width: 250px;
-  }
-
-  .carousel-indicators{
-    top: 550px;
-  }
-
-  .carousel-control-prev, .carousel-control-next{
-    display: none;
-  }
-}
-/* Testimonials Section End  */
